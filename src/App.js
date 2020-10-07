@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
-import BackgroundComponent from './BackgroundComponent';
+import LoginComponent from './LoginComponent';
 
 function App() {
   return (
-    <>
-    <BackgroundComponent />
-    </>
+    <div>
+      <img src="weatherBackground.jpg" className="Bg"/>
+      <LoginComponent />
+  
+    </div>
     
   );
 }
