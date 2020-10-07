@@ -1,13 +1,13 @@
 import React from 'react';
+import './App.css';
 import LoginComponent from './LoginComponent';
 
 function App() {
   return (
-    <div>
-      <img src="weatherBackground.jpg" className="Bg"/>
+    <body>
       <LoginComponent />
   
-    </div>
+    </body>
     
   );
 }
