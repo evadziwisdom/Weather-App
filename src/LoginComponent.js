@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function LoginComponent () {
@@ -11,6 +11,7 @@ function LoginComponent () {
                 <input type="text/email" />
                 <p>Password</p>
                 <input type="password"/>
+                <button>Signin</button>
             </form>
         </div>
 
