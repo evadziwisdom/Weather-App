@@ -8,13 +8,17 @@ body {background-image:url(weatherBackground.jpg);
 
 }
 
+.toprow {
+  display: flex;
+}
+
 .Loginpage {
   height: 300px;
   width: 250px;
-  background-color: white;
+  background-color: rgb(37, 36, 36);
   color: black;
   opacity: 0.5;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 30px;
   margin-right: 10px;
   padding: 15px
@@ -23,13 +27,61 @@ body {background-image:url(weatherBackground.jpg);
 
 .SigninHeader {
   text-align: center;
+  color: white;
 }
 
 form {
   padding-left: 20px;
+  color: white;
 }
 
 button {
+  text-align: center;
   margin-top: 20px;
   align-content: center;
+}
+
+.Bg {
+  padding-left: 200px;
+  margin-top: 40px;
+  height: 380px;
+}
+
+.search {
+  padding-left: 30px;
+  padding-top: 100px;
+}
+  
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }

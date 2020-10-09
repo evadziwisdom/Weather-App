@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 
 function LoginComponent () {
+    const [ Signin, setSignin] = useState('Signin')
+    console.log(Signin)
+
     return (
         <div className="Loginpage">
             
@@ -11,7 +14,7 @@ function LoginComponent () {
                 <input type="text/email" />
                 <p>Password</p>
                 <input type="password"/>
-                <button>Signin</button>
+                <button>{Signin}</button>
             </form>
         </div>
 
