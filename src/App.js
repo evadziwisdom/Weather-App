@@ -8,13 +8,14 @@ import SearchComponent from './SearchComponent';
 function App() {
   return (
     <body>
+       <div>
+      <SearchComponent />
+      </div>
       <div className="toprow">
       <LoginComponent />
       <InfographicComponent />
       </div>
-      <div>
-      <SearchComponent />
-      </div>
+     
 
     </body>
     

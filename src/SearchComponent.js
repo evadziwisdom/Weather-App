@@ -4,10 +4,12 @@ import './App.css';
 function SearchComponent () {
    
     return (
-        <form className="example" action="action_page.php">
-        <input type="text" placeholder="Search.." name="search"/>
-        <button type="submit"><i className="fa fa-search"></i></button>
-      </form>
+      <div class="topnav">
+         <a class="active" href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#contact">Contact</a>
+         <input type="text" placeholder="Search.."/>
+      </div>
     );
 }
 
